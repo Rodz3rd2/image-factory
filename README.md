@@ -1,6 +1,6 @@
-# Image Factory
+# Image Generator
 
-Access image-factory.php in the url to generate image. Make sure the phpx.x-gd was installed.
+Access image-generator.php in the url to generate image. Make sure the phpx.x-gd was installed.
 
 ## Options
 
@@ -25,4 +25,4 @@ Access image-factory.php in the url to generate image. Make sure the phpx.x-gd w
 
 ## LICENSE
 
-My Framework is released under the MIT Licence. See the bundled LICENSE file for details.
+Image Generator is released under the MIT Licence. See the bundled LICENSE file for details.
