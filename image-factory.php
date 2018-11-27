@@ -23,13 +23,13 @@ $text_prop = [
 
     'x' => isset($_GET['text_x']) ? $_GET['text_x'] : 0,
     'y' => isset($_GET['text_y']) ? $_GET['text_y'] : 0,
-    'w' => isset($_GET['text_w']) ? $_GET['text_w'] : 0,
-    'h' => isset($_GET['text_h']) ? $_GET['text_h'] : 0
+    'w' => 0,
+    'h' => 0
 ];
 
 $image_dimension = [
     'w' => isset($_GET['w']) ? $_GET['w'] : 200,
-    'h' => isset($_GET['w']) ? $_GET['w'] : 200
+    'h' => isset($_GET['h']) ? $_GET['h'] : 200
 ];
 
 $image = imagecreate($image_dimension['w'], $image_dimension['h']) or die("Cannot initialize new GD image stream");
